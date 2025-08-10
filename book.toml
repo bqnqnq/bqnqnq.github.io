@@ -1,0 +1,10 @@
+[book]
+authors = ["bqnqnq"]
+language = "ja"
+src = "src"
+title = "Bqnqnq Book"
+
+[output.html]
+default-theme = "bqnqnq"
+preferred-dark-theme = "bqnqnq"
+git-repository-url = "https://github.com/bqnqnq/bqnqnq.github.io"
