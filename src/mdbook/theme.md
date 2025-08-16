@@ -1,12 +1,10 @@
 # Theme
 
-## Theme の設定方法
-
-### 配置
+## 配置
 
 `./theme/` に各種ファイルを配置することで、自動的に優先してロードされる。
 ```
-.   
+.  
 └── theme
     ├── css
     │   ├── chrome.css
@@ -22,8 +20,10 @@
     └── index.hbs
 ```
 
-配置や名称はリポジトリを参考<br>
-[https://github.com/rust-lang/mdBook/tree/master/crates/mdbook-html/front-end](https://github.com/rust-lang/mdBook/tree/master/crates/mdbook-html/front-end)
+配置や名称はリポジトリを参考\
+<https://github.com/rust-lang/mdBook/tree/master/crates/mdbook-html/front-end>
+
+***
 
 `./book.toml` に以下を記述することで任意のディレクトリが `./theme/` の代わりになる。
 
@@ -32,6 +32,6 @@
 theme = "dir/hogehoge"
 ```
 
-### フォント
+## フォント
 
 BIZ UDPGothic などのフォントも、 `./theme/fonts/` に配置することで追加できる。
